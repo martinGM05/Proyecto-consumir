@@ -11,6 +11,17 @@
   (major1) == 0 && (major2) == 1 && (minor) <= 0)
 #endif /* MIN_VERSION_consumir */
 
+/* package aeson-1.5.6.0 */
+#ifndef VERSION_aeson
+#define VERSION_aeson "1.5.6.0"
+#endif /* VERSION_aeson */
+#ifndef MIN_VERSION_aeson
+#define MIN_VERSION_aeson(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  5 || \
+  (major1) == 1 && (major2) == 5 && (minor) <= 6)
+#endif /* MIN_VERSION_aeson */
+
 /* package base-4.14.1.0 */
 #ifndef VERSION_base
 #define VERSION_base "4.14.1.0"
@@ -76,6 +87,28 @@
   (major1) == 1 && (major2) <  2 || \
   (major1) == 1 && (major2) == 2 && (minor) <= 4)
 #endif /* MIN_VERSION_text */
+
+/* package unordered-containers-0.2.14.0 */
+#ifndef VERSION_unordered_containers
+#define VERSION_unordered_containers "0.2.14.0"
+#endif /* VERSION_unordered_containers */
+#ifndef MIN_VERSION_unordered_containers
+#define MIN_VERSION_unordered_containers(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  2 || \
+  (major1) == 0 && (major2) == 2 && (minor) <= 14)
+#endif /* MIN_VERSION_unordered_containers */
+
+/* package vector-0.12.3.0 */
+#ifndef VERSION_vector
+#define VERSION_vector "0.12.3.0"
+#endif /* VERSION_vector */
+#ifndef MIN_VERSION_vector
+#define MIN_VERSION_vector(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  12 || \
+  (major1) == 0 && (major2) == 12 && (minor) <= 3)
+#endif /* MIN_VERSION_vector */
 
 /* tool gcc-9.2.0 */
 #ifndef TOOL_VERSION_gcc
@@ -166,7 +199,7 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "consumir-0.1.0.0-LV18l01cuo4JSTZRG7dtbO-consumir"
+#define CURRENT_COMPONENT_ID "consumir-0.1.0.0-4Gh1JVhnxdrAgD2VGG17w3-consumir"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"

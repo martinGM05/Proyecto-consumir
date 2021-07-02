@@ -18,6 +18,9 @@ dependencies:
   - bytestring
   - text
   - http-conduit
+  - vector
+  - aeson
+  - unordered-containers
 
 executables:
   consumir:

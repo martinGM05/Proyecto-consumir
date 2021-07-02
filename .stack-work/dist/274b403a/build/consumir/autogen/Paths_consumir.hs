@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "C:\\Users\\Martin Gonzalez\\Documents\\Escuela\\Tec\\Veranos Enero - Junio 2021\\Programaci\243n L\243gica y funcional\\Ejercicios\\consumir\\.stack-work\\install\\7a46dc15\\bin"
-libdir     = "C:\\Users\\Martin Gonzalez\\Documents\\Escuela\\Tec\\Veranos Enero - Junio 2021\\Programaci\243n L\243gica y funcional\\Ejercicios\\consumir\\.stack-work\\install\\7a46dc15\\lib\\x86_64-windows-ghc-8.10.4\\consumir-0.1.0.0-LV18l01cuo4JSTZRG7dtbO-consumir"
+libdir     = "C:\\Users\\Martin Gonzalez\\Documents\\Escuela\\Tec\\Veranos Enero - Junio 2021\\Programaci\243n L\243gica y funcional\\Ejercicios\\consumir\\.stack-work\\install\\7a46dc15\\lib\\x86_64-windows-ghc-8.10.4\\consumir-0.1.0.0-4Gh1JVhnxdrAgD2VGG17w3-consumir"
 dynlibdir  = "C:\\Users\\Martin Gonzalez\\Documents\\Escuela\\Tec\\Veranos Enero - Junio 2021\\Programaci\243n L\243gica y funcional\\Ejercicios\\consumir\\.stack-work\\install\\7a46dc15\\lib\\x86_64-windows-ghc-8.10.4"
 datadir    = "C:\\Users\\Martin Gonzalez\\Documents\\Escuela\\Tec\\Veranos Enero - Junio 2021\\Programaci\243n L\243gica y funcional\\Ejercicios\\consumir\\.stack-work\\install\\7a46dc15\\share\\x86_64-windows-ghc-8.10.4\\consumir-0.1.0.0"
 libexecdir = "C:\\Users\\Martin Gonzalez\\Documents\\Escuela\\Tec\\Veranos Enero - Junio 2021\\Programaci\243n L\243gica y funcional\\Ejercicios\\consumir\\.stack-work\\install\\7a46dc15\\libexec\\x86_64-windows-ghc-8.10.4\\consumir-0.1.0.0"
